@@ -1,0 +1,50 @@
+em{
+    color: white;
+    background-color: green;
+}
+/* Красный цвет первой буквы */
+p.buk:first-letter {
+    color: red;
+    font-size: 28px;
+    font-weight:bold;
+}
+/* огород */
+.one{
+    color: orange;
+    font-size: 28px;
+    font-weight:bold;
+}
+/* Склад */
+.two{
+    color: blue;
+    font-size: 28px;
+    font-weight:bold;
+}
+.zag{
+font-weight: bold;
+}
+.fru1{
+    color: gray;
+}
+.fru2{
+    color: green;
+}
+.ov{
+    color: red;
+}
+/* таблица */
+table{
+    text-align: right;
+    text-align: center;
+
+}
+.tab1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.name td:first-child{
+    color: orange;
+}
+.name td:nth-child(n+2){
+    background-color: green;
+}
