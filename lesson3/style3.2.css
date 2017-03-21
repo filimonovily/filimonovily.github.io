@@ -1,0 +1,16 @@
+li.simvol:after{
+    content: "⇱";
+    color: orange;
+    transform: scale(-1, 1);
+    display: inline-block;
+}
+
+a:link {color: blue;}
+a:visited{color: blue;}
+.ya a:link{color: orange}
+.ya a:visited{color: orange;}
+.go a:link {color: #666;}
+.go a:visited {color: #666;}
+ul{
+    font-size: 26px;
+}
