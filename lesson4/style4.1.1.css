@@ -1,0 +1,46 @@
+body{
+    font-family: Economica bold;
+    font-weight: bold;
+}
+li, ul, a{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul {
+    margin-left: 100px; /* Отступ слева в браузере IE и Opera */
+    width: 900px;
+    margin-left: 100px;
+    margin-top:0;
+    }
+.menu{
+    background-color: blueviolet;
+    height:35px;
+
+}
+li a{
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+
+}
+li a:hover{
+    background: #CBD0CC; /* Цвет фона под текстом */
+    color: #666666  ;  /* Цвет текста */
+
+
+}
+
+li .sim{
+
+    float: right;
+}
+.su{
+    float: right;
+    padding: 7px;
+}
+
+.sim2{
+    text-decoration: none;
+    color: white;
+}

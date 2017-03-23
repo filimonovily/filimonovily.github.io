@@ -1,0 +1,48 @@
+body{
+    font-family: Economica bold;
+    font-weight: bold;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+   -background-color: red;
+   -margin-left: 10px;
+    -margin-top: 3px;
+    -padding: 5px;
+
+
+}
+
+ul {
+    margin-left: 100px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+
+
+}
+.menu{
+    background-color: blueviolet;
+    height: 35px;
+
+}
+.inmenu{
+    width: 900px;
+   - background-color: #666666;
+    margin: 0 auto;
+    height: 35px;
+
+
+}
+
+li a{
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+
+
+}
+li a:hover{
+    background: #CBD0CC; /* Цвет фона под текстом */
+    color: #666666  ;  /* Цвет текста */
+
+}
