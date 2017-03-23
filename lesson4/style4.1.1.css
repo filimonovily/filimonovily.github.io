@@ -44,3 +44,7 @@ li .sim{
     text-decoration: none;
     color: white;
 }
+.clear {
+    clear: left;
+}
+/* Отмена обтекания */
