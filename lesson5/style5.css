@@ -1,0 +1,37 @@
+body{
+    font-family: "Trebuchet MS";
+}
+.headertext{
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+ }
+.banner{
+    width: 300px;
+    border: 1px solid #ee8129;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #ee8129;
+
+}
+.telo{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    width: 296px;
+    background-color: white;
+}
+li{
+    list-style-type: none;
+}
+li:before{
+    content: '';
+    background-image: url("pi.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    display: inline-block;
+    margin-right: 10px;
+}
