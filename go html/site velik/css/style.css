@@ -1,0 +1,138 @@
+body{
+    background-color:#f9f9f9;
+}
+
+.container{
+    width: 1060px;
+    margin: 0 auto;
+    border-right: solid 2px #e7e7e7;
+    border-left: solid 2px #e7e7e7;
+
+
+}
+/* <---------head ---------->  */
+.logo{
+    margin-left: 50px;
+}
+
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    display: inline-block;
+
+}
+.Menu_box{
+    background-color: #5d5d5d;
+    width: 960px;
+    margin: 0 auto;
+
+}
+.menu_a_glav{
+    color:#ffffff;
+}
+.menu_glav:hover{
+    background-color: #464646;
+    border-left: solid 1px #838383;
+    border-right: solid 1px #838383;
+    padding: 7px;
+}
+.menu_glav{
+    margin-right: 30px;
+    padding: 8px;
+    -background-color: red;
+}
+/*<--------telo-------->*/
+
+/*sidebar*/
+
+.sidebar{
+    margin-left: 50px;
+    width: 270px;
+    float: left;
+}
+.main{
+    margin-top: 40px;
+    height: 700px;
+}
+.sidebar ul li {
+    border: solid 1px #c8c8c8;
+}
+.sidebar ul{
+    padding: 0;
+}
+.menu_sidbar_A{
+    color: grey;
+    padding: 6px;
+    display: block;
+}
+.menu_sidbar_A:hover{
+    color: black;
+    background: darkgray;
+}
+.menu_sidbar{
+   width: 218px;
+    margin-top: 0;
+}
+.child_m_sb{
+    padding-left: 15px;
+}
+
+/*kartinka*/
+.velic{
+    border: solid 1px #c8c8c8;
+    float: right;
+    margin-right: 50px;
+
+}
+/*kartinka*/
+p{
+    display: block;
+    float: right;
+    margin-right: 50px;
+    width: 660px;
+    padding: 7px;
+
+}
+.clear{
+    clear: both;
+}
+/*<-----------footer----------->*/
+footer{
+    -position: relative;
+    -left: 0;
+    -bottom: 0;
+    background-color: #e1e1e1;
+    width: 960px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+.fot ul{
+margin: 9px;
+
+
+}
+.fot{
+   float: left;
+   height: 40px;
+}
+.corp{
+    float: right;
+    display: inline-block;
+    width: 200px;
+    margin: 2px;
+    color: #3f3f3f;
+}
+.menu_footer{
+    color: #3f3f3f;
+    margin-right: 90px;
+
+}
+.menu_footer:hover{
+    text-decoration: underline;
+}
